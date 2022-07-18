@@ -34,3 +34,51 @@ touch "file name" (quotes are not required)
 
 
 
+
+how to back to the previous version of the file 
+
+git checkout "file name" (quotes are not required)
+
+how get all the previous version file 
+
+git checkout -f 
+
+
+
+how to check who have commited the file 
+ by using git log 
+ command -> git log
+
+
+
+if we want to chcek last one 
+
+by using git log -p-1 
+instead of 1 we can write any number according to iur need 
+
+
+
+diff command
+
+diff command gives all the changes we have made after the last commit
+
+
+command to commit the file without using the commit command
+git commit -a -m
+
+
+
+
+how to delete a file from a working repo
+
+we can do this using rm command
+
+git rm "file name"
+
+
+command to remove the file from the git repo but we want to keep  on the hard disk 
+
+
+get rm "file name" --cached
+
+
