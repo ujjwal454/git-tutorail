@@ -1,0 +1,16 @@
+git init ->  initializes new git reposetry
+
+we have untracked unmodified  modified  staged files 
+
+
+git commit ->
+
+
+
+untracked ->  we are not tracking the file with the help of git 
+
+unmodified -> if we are tracking a file and we have not changed anything to our code is falls into unmodified file
+
+modified -> if we are tracking a file and we have updated that file than this comes under modified case
+
+if we add the file
