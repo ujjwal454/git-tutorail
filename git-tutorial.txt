@@ -1,10 +1,23 @@
 git init ->  initializes new git reposetry
+ 
+ command -> git init
+
+
 
 we have untracked unmodified  modified  staged files 
 
 
-git commit ->
+git add -> it adds the file from untracked to the staging file
 
+
+command for add -> git add "file name"  (quotes are not required)
+git add all -> it add all files from untracked to the staging area
+command to add all -> git add --a
+
+git commit -> it takes the snapshot of the file and after that it makes our file as unmodified
+than if we do something in our file it will be move to modified file 
+
+command to commit -> git 
 
 
 untracked ->  we are not tracking the file with the help of git 
@@ -13,4 +26,11 @@ unmodified -> if we are tracking a file and we have not changed anything to our 
 
 modified -> if we are tracking a file and we have updated that file than this comes under modified case
 
-if we add the file
+
+how to create a new file in the git hub repo using git 
+
+using touch command
+touch "file name" (quotes are not required)
+
+
+
